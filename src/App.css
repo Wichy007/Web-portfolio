@@ -14,7 +14,11 @@
   src: url('./assets/font/CentraNo2-Book.ttf');
   font-weight: 400;
 }
-
+@media (prefers-color-scheme: light){
+  button{
+      background-color: #1a1a1a;
+  }
+}
 /* Defualt CSS */
 *{
   margin: 0;
