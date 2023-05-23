@@ -54,7 +54,7 @@ const Connect = () => {
                         <textarea placeholder="message" name="message" onChange={handlerChange} value={input.message || ""}/>
                     </div>
                     <div className="send" style={{width:"100%", alignItems:'start', margin:"10px 0"}}>
-                        <button type="submit"><span>Send to my E-mail</span></button>
+                        <button type="submit"><span>Send<i className="fa-regular fa-paper-plane" style={{padding:'0 0 0 15px'}}></i></span></button>
                     </div>
                 </form>
             </div>

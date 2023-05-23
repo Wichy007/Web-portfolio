@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/wichy-logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -33,7 +33,7 @@ const NavBar = () => {
         <Navbar expand='lg' className={scrolled?"scrolled":""}>
             <Container>
                 <Navbar.Brand href='#home'>
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" style={{width:'200px'}} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -42,7 +42,8 @@ const NavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link':'navbar-link' } onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
-                        <Nav.Link href="#footer" className={activeLink === 'home' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Resume&Github</Nav.Link>
+                        <Nav.Link href="#footer" className={activeLink === 'home' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Resume</Nav.Link>
+                        <Nav.Link href="https://github.com/Wichy007" target='_blank' className={activeLink === 'github' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('github')}>GitHub</Nav.Link>
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
@@ -50,7 +51,7 @@ const NavBar = () => {
                             {/* <a href='#' ><img src={navIcon2} alt="" style={{borderRadius:"50%", width:'17px'}} /></a>
                             <a href='#'><img src={navIcon3} alt="" /></a> */}
                         </div>
-                        <button className='vvd' onClick={()=>console.log('connect')}><a href='#connect'>Let's Connect</a></button>
+                        <button className='vvd' style={{height:'50px', display:'flex', flexDirection:'column', justifyContent:'center'}} onClick={()=>console.log('connect')}><a href='#connect'>Let's Connect</a></button>
                     </span>
                 </Navbar.Collapse>
             </Container>

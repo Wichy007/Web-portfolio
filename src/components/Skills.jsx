@@ -29,8 +29,8 @@ function Skills (){
       return (
         <div className="skill-box" id="skills">
             <div className="title-skill">
-            <h2 style={{fontSize:"50px", fontWeight:"bold", marginTop:"55px"}}>Skills</h2>
-            <p>In this bootcamp, teach me about the MERN stack and other tools following below.</p>
+            <h2 style={{fontSize:"50px", fontWeight:"bold", marginTop:"55px"}}>Technical Skills</h2>
+            {/* <p>In this bootcamp, teach me about the MERN stack and other tools following below.</p> */}
             <Carousel 
             className="slide-box" 
             responsive={responsive}

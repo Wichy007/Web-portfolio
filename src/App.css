@@ -245,6 +245,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+.loop-text{
+  height: 200px;
+}
 .banner {
   justify-content: center;
   margin-top: 0;
@@ -315,6 +318,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+@media (max-width: 620px) {
+  .loop-text{
+    height: 280px;
+  }
 }
 
 /************ Skills Css ************/
