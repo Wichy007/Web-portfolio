@@ -48,11 +48,11 @@ const Banner = () => {
                     <Col style={{padding:'0 0 0 90px'}} xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portfolio</span>
                         <div className='loop-text'><h1 style={{width:'100%'}}>{`Hi I'm Wichy`}<br/><span className='wrap'>{text}</span></h1></div>
-                        <p>Hello, I'm from the medical field, but now I'm in bootcamp with Generation Thailand to learn <b>programming languages</b>, <b>behavioral skills and mindset.
+                        <p>Hello, I'm from the medical field, but now I was in bootcamp with Generation Thailand to learn <b>programming languages</b>, <b>behavioral skills and mindset.
                         such as growth mindset, time management, teamwork, and orientation to detail</b>.
-                        I think I like to solve puzzles and create something that uses technology to reduce work load.
-                        So I am excited about this field and want to know more and more about knowledge for creating something for people and the world.<br /><br />
-                        Let me tell you more about myself in this port!
+                        I enjoy solving puzzles and create something that uses technology to reduce work load.
+                        So I am thrilled to explore deeper into the technologies and create excellent works for people around the world.
+
                         </p>
                         <button onClick={()=>console.log('connect')}><a href='#connect' style={{color:"white"}}>Let's connect</a><ArrowRightCircle size={25} /></button>
                     </Col>

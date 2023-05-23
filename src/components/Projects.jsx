@@ -11,14 +11,14 @@ const Projects = () => {
 
     const dataProject = {
         tab1:[
-            {
-                imgSrc: webPort,
-                title: 'Web Portfolio',
-                description: 'Create a personal portfolio with responsive',
-                skills: 'Use: HTML CSS Bootstrap JavaScript React others libaries',
-                sourceCode:'',
-                link: ''
-            },
+            // {
+            //     imgSrc: webPort,
+            //     title: 'Web Portfolio',
+            //     description: 'Create a personal portfolio with responsive',
+            //     skills: 'Use: HTML CSS Bootstrap JavaScript React others libaries',
+            //     sourceCode:'',
+            //     link: ''
+            // },
             {
                 imgSrc: reactAssesment,
                 title: 'React Basic web',

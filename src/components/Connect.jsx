@@ -44,11 +44,11 @@ const Connect = () => {
                     </div>
                     <div className="firstname-lastname" style={{width:"100%", gap:"10px"}}>
                         <input type="text" placeholder="name" name="name" onChange={handlerChange} value={input.name || ""}/>
-                        <input type="text" placeholder="lastname" name="lastname" onChange={handlerChange} value={input.lastname || ""}/>
+                        <input type="text" placeholder="surname" name="lastname" onChange={handlerChange} value={input.lastname || ""}/>
                     </div>
                     <div className="email-phoneNo" style={{width:"100%", gap:"10px"}}>
                         <input type="text" placeholder="e-mail" name="email" onChange={handlerChange} value={input.email || ""}/>
-                        <input type="text" placeholder="phone No." name="phoneNo" onChange={handlerChange} value={input.phoneNo || ""}/>
+                        <input type="text" placeholder="phone" name="phoneNo" onChange={handlerChange} value={input.phoneNo || ""}/>
                     </div>
                     <div className="message" style={{width:"100%"}}>
                         <textarea placeholder="message" name="message" onChange={handlerChange} value={input.message || ""}/>

@@ -15,9 +15,7 @@ const Footer = () => {
                 <p style={{padding:'10px 0'}}>My Github</p>
             </div> */}
             <div className="footer-copyright">
-                <p>created by Naravit Bunthap</p>
-                <p>credit: youtube webdecoded chanel</p>
-                <p>Copyright 2023. All Rights Reserved</p>
+                <p style={{color:'lightgray'}}>created by Naravit Bunthap | Copyright 2023. All Rights Reserved | credit: youtube webdecoded chanel</p>
             </div>
         </div>
     )
