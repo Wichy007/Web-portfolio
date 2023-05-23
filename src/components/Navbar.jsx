@@ -42,7 +42,7 @@ const NavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link':'navbar-link' } onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
-                        <Nav.Link href="#footer" className={activeLink === 'home' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Resume</Nav.Link>
+                        <Nav.Link href="https://drive.google.com/file/d/1GopIBrc-rQcOldPs0-2P4d7eOXDPXSCY/view?usp=sharing" target='_blank' className={activeLink === 'home' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Resume</Nav.Link>
                         <Nav.Link href="https://github.com/Wichy007" target='_blank' className={activeLink === 'github' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('github')}>GitHub</Nav.Link>
                         <Nav.Link href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target='_blank' className={activeLink === 'linkedin' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('linkedin')}>LinkedIn</Nav.Link>
                     </Nav>
