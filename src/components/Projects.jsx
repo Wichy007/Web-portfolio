@@ -100,8 +100,8 @@ const ProjectCards = ({renderPage}) => {
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
                             <p>{project.skills}</p>
-                            <a href={project.sourceCode} style={{color:"white"}}>Source Code</a>
-                            <a href={project.link} style={{color:"white"}}>Visit Project</a>
+                            <a href={project.sourceCode} style={{color:"white"}} target="_blank">Source Code</a>
+                            <a href={project.link} style={{color:"white"}} target="_blank">Visit Project</a>
                         </div>
                     </div>
                 )
